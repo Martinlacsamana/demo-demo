@@ -33,13 +33,6 @@ const patientsWithRecommendations = [
     urgency: "Low",
     recommendationDate: "2 days ago",
   },
-  {
-    id: "5",
-    name: "Sarah Williams",
-    diagnosis: "Thyroid Cancer",
-    urgency: "Medium",
-    recommendationDate: "Today",
-  },
 ]
 
 export default function Dashboard() {
@@ -115,7 +108,7 @@ export default function Dashboard() {
             <CardTitle className="text-xl font-semibold text-primary-blue flex items-center justify-between">
               <div className="flex items-center">
                 <Brain className="h-5 w-5 mr-2 text-primary-yellow" />
-                Recommendations Awaiting Review
+                Treatments Awaiting Review
               </div>
               <Link
                 href="/patients"

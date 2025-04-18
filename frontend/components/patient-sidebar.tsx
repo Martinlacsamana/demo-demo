@@ -63,50 +63,9 @@ export function PatientSidebar() {
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="hover:bg-primary-blue/30 hover:text-primary-yellow data-[active=true]:bg-primary-blue/30 data-[active=true]:text-primary-yellow data-[active=true]:border-l-4 data-[active=true]:border-primary-yellow pl-4"
-            >
-              <Link href="#" className="flex items-center">
-                <Calendar className="mr-3 h-5 w-5" />
-                <span>Appointments</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="hover:bg-primary-blue/30 hover:text-primary-yellow data-[active=true]:bg-primary-blue/30 data-[active=true]:text-primary-yellow data-[active=true]:border-l-4 data-[active=true]:border-primary-yellow pl-4"
-            >
-              <Link href="#" className="flex items-center">
-                <FileText className="mr-3 h-5 w-5" />
-                <span>Reports</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="hover:bg-primary-blue/30 hover:text-primary-yellow data-[active=true]:bg-primary-blue/30 data-[active=true]:text-primary-yellow data-[active=true]:border-l-4 data-[active=true]:border-primary-yellow pl-4"
-            >
-              <Link href="#" className="flex items-center">
-                <Bell className="mr-3 h-5 w-5" />
-                <span>Notifications</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="hover:bg-primary-blue/30 hover:text-primary-yellow data-[active=true]:bg-primary-blue/30 data-[active=true]:text-primary-yellow data-[active=true]:border-l-4 data-[active=true]:border-primary-yellow pl-4"
-            >
-              <Link href="#" className="flex items-center">
-                <Settings className="mr-3 h-5 w-5" />
-                <span>Settings</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
+          
+        
+          
           <SidebarMenuItem>
             <SidebarMenuButton
               asChild
