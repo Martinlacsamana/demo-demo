@@ -10,7 +10,7 @@ def get_all_treatment_plans():
 
 @router.get("/{patient_id}", response_model=TreatmentPlan)
 def get_treatment_plan(patient_id: str):
-    if plan := next((plan for plan in treatment_plans if plan.id == patient_id), None):
+    if plan := next((plan for plan in treatment_plans if plan.patientId == patient_id), None):
         return plan
     
     raise HTTPException(status_code=404, detail="Treatment plan not found")
